@@ -1,0 +1,27 @@
+----DELETE ORDERS WHICH ARE NOT PLACED-------------
+
+db.customers.deleteMany(
+{order_status_completed: false}
+)
+
+--------------LATEST ORDER PLACED-----------------------
+db.customers.find().sort(
+{order_date: -1}
+)
+
+-----AVG AGE-------------
+db.customers.aggregate([
+  {$group: {
+      		_id: null,
+      		averageAge: { $avg: "$age" }
+    		}
+  }
+])
+
+
+--FIND ALL ORDERS WHICH ARE PLACED SUCCESSFULLY----
+
+db.customers.find(
+{order_status_completed: true},
+{_id: 1, customer_name: 1, order_amount: 1, order_date: 1, order_status_completed: 1}
+)

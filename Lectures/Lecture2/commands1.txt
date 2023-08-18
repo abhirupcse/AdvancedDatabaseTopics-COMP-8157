@@ -1,0 +1,62 @@
+db.customers.insertMany([
+{
+  "customer_name": "Abhirup Ranjan",
+  "age": 28,
+  "email": "abhirup@gmail.com",
+  "phone_number": "+123 000 0000",
+  "address": "2950 Peter Street",
+  "city": "Windsor",
+  "zipcode": "N9C1G8",
+  "order_amount": 10000,
+  "order_date": ISODate("2023-05-15"),
+  "order_status_completed": true
+},
+{
+  "customer_name": "Ratnakar",
+  "age": 27,
+  "email": "ratnakar@gmail.com",
+  "phone_number": "+123 100 0000",
+  "address": "2951 Peter Street",
+  "city": "Windsor",
+  "zipcode": "N9C1G9",
+  "order_amount": 20000,
+  "order_date": ISODate("2023-05-14"),
+  "order_status_completed": true
+},
+{
+  "customer_name": "Arun Kumar",
+  "age": 26,
+  "email": "arun@gmail.com",
+  "phone_number": "+123 120 0000",
+  "address": "2952 Peter Street",
+  "city": "Windsor",
+  "zipcode": "N9C1G0",
+  "order_amount": 30000,
+  "order_date": ISODate("2023-05-13"),
+  "order_status_completed": false
+},
+{
+  "customer_name": "Bran DJ",
+  "age": 25,
+  "email": "bran@gmail.com",
+  "phone_number": "+123 123 0000",
+  "address": "2953 Peter Street",
+  "city": "Windsor",
+  "zipcode": "N9C1G1",
+  "order_amount": 40000,
+  "order_date": ISODate("2023-05-12"),
+  "order_status_completed": true
+},
+{
+  "customer_name": "King Kholi",
+  "age": 24,
+  "email": "king@gmail.com",
+  "phone_number": "+123 123 1000",
+  "address": "2954 Peter Street",
+  "city": "Windsor",
+  "zipcode": "N9C1G2",
+  "order_amount": 50000,
+  "order_date": ISODate("2023-05-11"),
+  "order_status_completed": false
+}
+])
