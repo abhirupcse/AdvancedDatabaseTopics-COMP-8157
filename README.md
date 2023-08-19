@@ -9,7 +9,7 @@ The repository consists of the following
 3. Python code
 4. Diagrams
 
-Following are the links to Dataset reference, Google Colab, GitHub(where all the files are uploaded)
+Following are the links to Dataset reference.
 
 **Dataset Used** - Open Alberta Portal https://open.alberta.ca/dataset?tags=Indigenous+education&organization=education&topic=Indigenous+Peoples
 
